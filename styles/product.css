@@ -1464,3 +1464,27 @@ section
 {
 	color: #FFFFFF;
 }
+.uc-card {
+	text-align: center;
+	padding: 5px;
+	background-color: rgba(61, 78, 230, 0.487);
+}
+.uc-card img{
+	height: 100px;	
+}
+.uc-card > *:not(:last-child) {
+	margin-bottom: 60px;
+}
+.product-qty {
+	font-size: 25px;
+	font-weight: 500;
+	color: #fff;
+}
+.product-price {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	color: #fff;
+	background-color: rgba(26, 25, 25, 0.324);
+}

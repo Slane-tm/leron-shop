@@ -161,6 +161,9 @@ section
 {
 	zoom: 1;
 }
+.product:hover {
+	transform: scale(1.02);
+}
 .float_left
 {
 	float: left;
@@ -988,6 +991,7 @@ section
 {
 	width: calc((100% - 90px) / 4);
 	margin-bottom: 59px;
+	transition: 0.2s;
 }
 .product_image
 {
